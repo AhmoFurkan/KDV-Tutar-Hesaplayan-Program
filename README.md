@@ -15,7 +15,7 @@ public class Main {
        kdvTutar =tutar * kdvOran;
        kdvliTutar = tutar +kdvTutar;
 
-       System.out.print("KDV'siz Tutar :" + tutar);
+       System.out.println("KDV'siz Tutar :" + tutar);
        System.out.println("KDV Oranı :" + kdvOran);
        System.out.println("KDV Tutarı :" + kdvTutar);
        System.out.println("KDV'li Tutarı :" + kdvliTutar );
